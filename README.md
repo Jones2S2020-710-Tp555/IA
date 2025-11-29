@@ -1,9 +1,6 @@
-# Detecção Não Supervisionada de Anomalias em Telemetria LEO com LSTM-AE e VAE
+# Análise Comparativa entre Autoencoders Recorrentes baseados em LSTM e Autoencoders Variacionais (VAE) na Detecção Não Supervisionada de Anomalias em Séries Temporais de Telemetria de Satélites LEO
 
 Este repositório contém os códigos, notebooks e figuras do artigo:
-
-> **“Análise Comparativa entre Autoencoders Recorrentes baseados em LSTM e Autoencoders Variacionais (VAE) na Detecção Não Supervisionada de Anomalias em Séries Temporais de Telemetria de Satélites LEO”**  
-> Autor: *Jones Márcio Nambundo (UNIFEI)*
 
 O objetivo é comparar duas arquiteturas de aprendizado profundo baseadas em reconstrução:
 
@@ -39,19 +36,19 @@ A pipeline implementada segue os passos:
 
 ---
 
-## Como Rodar com Google Colab
+## 2. Como Rodar com Google Colab
 . Faça o download dos seguintes arquivos:
 - dataset.csv
 - segments.csv
 - Código do modelo (arquivo .ipynb ou .py)
 
-## Como Rodar com Google Colab
+## 3. Como Rodar com Google Colab
 Acesse : https://colab.research.google.com/
 
-## Envie o Dataset e Segments para o Colab
+## 4. Envie o Dataset e Segments para o Colab
 icone 🗂️ "Files" → Upload → selecione dataset.csv e segments.csv
 
-## Execute o código
+## 5. Execute o código
 Clique em Runtime → Run all
 ou execute célula por célula até o final.
 
